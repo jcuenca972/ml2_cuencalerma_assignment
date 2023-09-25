@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 class IrisView:
 
     def __init__(self):
@@ -22,7 +23,6 @@ class IrisView:
                 input_numbers.append(number)
 
         return tuple(input_numbers)
-
 
     def uppdate_prediction_value(self, msg: str):
         st.session_state.prediction = msg
