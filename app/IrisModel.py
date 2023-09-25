@@ -8,7 +8,8 @@ from typing import List
 class IrisModel:
 
     def __init__(self):
-        self._model_url = "{}{}{}{}{}".format(os.getcwd(), os.sep, "app", os.sep, "iris_model.sav")
+        #self._model_url = "{}{}{}{}{}".format(os.getcwd(), os.sep, "app", os.sep, "iris_model.sav")
+        self._model_url = "/root/ml2/knn/app/iris_model.sav"
         self._model = pickle.load(open(self._model_url, 'rb'))
 
     def _iris_to_pandas(self, iris_data: List[Iris]):
