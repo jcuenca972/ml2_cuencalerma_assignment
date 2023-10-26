@@ -1,5 +1,6 @@
-from app.IrisController import IrisController
+from app_iris.IrisController import IrisController
+from app_menu.MenuController import MenuController
 
 if __name__ == "__main__":
-    app_controller = IrisController()
-    app_controller.init_gui()
+    menu_controller = MenuController(IrisController())
+    menu_controller.init_gui()

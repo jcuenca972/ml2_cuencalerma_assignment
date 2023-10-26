@@ -1,6 +1,6 @@
-from app.IrisView import IrisView
-from app.Iris import Iris
-from app.IrisModel import IrisModel
+from app_iris.IrisView import IrisView
+from app_iris.Iris import Iris
+from app_iris.IrisModel import IrisModel
 
 class IrisController:
 
@@ -22,3 +22,4 @@ class IrisController:
                 "Petal Length cm", "Petal Width cm"
             )
         self._view.write_prediction()
+
