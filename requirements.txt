@@ -1,3 +1,7 @@
 streamlit
 pandas
 numpy
+tensorflow
+keras-tuner
+xgboost
+joblib
