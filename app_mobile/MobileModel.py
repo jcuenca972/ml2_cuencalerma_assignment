@@ -8,7 +8,7 @@ from typing import List
 class MobileModel:
 
     def __init__(self):
-        self._model_url = "{}{}{}".format("app_mobile", os.sep, "mobile_model.keras")
+        self._model_url = "{}{}{}".format("app_mobile", os.sep, "mobile_model.h5")
         self._transformer_url = "{}{}{}".format("app_mobile", os.sep, "feature_pipeline.joblib")
         self._model = load_model(self._model_url)
         self._feature_transformer = load(self._transformer_url)
