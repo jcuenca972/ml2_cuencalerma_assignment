@@ -42,5 +42,5 @@ class GeneralView:
 
     def write_prediction(self):
         with self._main_container:
-            st.markdown(f"<h5 style='text-align: center; color: black;'>{st.session_state.prediction}</h5>",
+            st.markdown(f"<h5 style='text-align: center;'>{st.session_state.prediction}</h5>",
                         unsafe_allow_html=True)
