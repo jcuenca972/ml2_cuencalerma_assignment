@@ -6,3 +6,4 @@ keras-tuner
 xgboost
 joblib
 scikit-learn
+scipy
